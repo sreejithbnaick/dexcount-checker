@@ -12,7 +12,11 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // No affect
         test();
+
+        // No affect
+        regularClass.x = 2;
     }
 
     // comment this to reduce count, by 1
@@ -77,5 +81,21 @@ public class MainActivity extends Activity {
         // So total 3, one for implementation,
         // another for abstract method and
         // another for overridden method.
+    };
+
+    // Doesn't take any count.
+    private RegularClass regularClass = new RegularClass();
+
+    private RegularClass1 regularClass1 = new RegularClass1() {
+        // This will take another method count.
+    };
+
+    private RegularClass1 regularClass2 = new RegularClass1() {
+        @Override
+        public void test() {
+            super.test();
+            // This will take another method count.
+            // comment this to reduce count by 1.
+        }
     };
 }
