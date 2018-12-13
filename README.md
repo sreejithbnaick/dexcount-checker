@@ -136,5 +136,5 @@ See how dex method count increases in Android coding
 
 
 ## See your self by running the code.
-* Run assembleDebug and see output in console. Eg `Total methods in app-debug.apk: 1161`
+* Run gradle task `assembleDebug` and see output in console. Eg `Total methods in app-debug.apk: 1161`
 * Try commenting the code and re-run and see the difference.
