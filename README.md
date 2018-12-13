@@ -1,5 +1,11 @@
 # dexcount-checker
-See how dex method count increases in Android coding
+
+See how dex method count increases in Android coding.
+
+If your Android Project Build is giving error on 64k method count, 
+it is high time to understand how method count works and optimize the code.
+
+(Yes I know, Proguard will automatically handle some of the cases. But not all the time). 
 
 ## So how it works
 
