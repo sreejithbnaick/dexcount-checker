@@ -141,6 +141,6 @@ it is high time to understand how method count works and optimize the code.
 * Same for Regular class as Abstract classes.
 
 
-## See your self by running the code.
+## See yourself by running the gradle task.
 * Run gradle task `assembleDebug` and see output in console. Eg `Total methods in app-debug.apk: 1161`
 * Try commenting the code and re-run and see the difference.
