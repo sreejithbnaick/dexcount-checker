@@ -133,3 +133,8 @@ See how dex method count increases in Android coding
 * Avoid more unnecessary new abstract classes and extra methods, 
     since both definition and implementation of class and override takes extra count.
 * Same for Regular class as Abstract classes.
+
+
+## See your self by running the code.
+* Run assembleDebug and see output in console. Eg `Total methods in app-debug.apk: 1161`
+* Try commenting the code and re-run and see the difference.
