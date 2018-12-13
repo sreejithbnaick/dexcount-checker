@@ -41,6 +41,19 @@ See how dex method count increases in Android coding
          public abstract void test(); // 1 method count for this.
     }
     ```
+    
+    or
+    
+    ```
+    public abstract class TestAbstract2 {
+        // 1 method count for this.
+        public abstract void test();
+    
+        // 1 method count for this.
+        public void test2() {
+        }
+    }
+    ```
 * Each Abstract class implementation will take extra 1.
     ```
     private TestAbstract testAbstract = new TestAbstract() {
