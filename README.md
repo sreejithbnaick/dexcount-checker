@@ -135,7 +135,8 @@ it is high time to understand how method count works and optimize the code.
     
 ## Conclusion, so far (Will be doing more research)
 
-* Just don't forget that fact, `static final` variables take extra method count.
+* Always use `static final` for writing constants. Don't forget to write `final`. 
+* Avoid static variables. Non-final static takes count.
 * Avoid unnecessary new interfaces and extra methods.
 * Avoid more unnecessary new abstract classes and extra methods, 
     since both definition and implementation of class and override takes extra count.
