@@ -46,4 +46,36 @@ public class MainActivity extends Activity {
 
         }
     };
+
+    // comment this to reduce count by 1. Another for implementation.
+    private TestAbstract testAbstract = new TestAbstract() {
+    };
+
+    // comment this to reduce count by 1. Extra 1 for implementation.
+    private TestAbstract1 abstract1 = new TestAbstract1() {
+        @Override
+        public void test() {
+            // This will take another method count.
+            // Total 2 extra for implementation.
+        }
+    };
+
+    // comment this to reduce count by 1. Extra 1 for implementation.
+    private TestAbstract2 abstract2 = new TestAbstract2() {
+        @Override
+        public void test() {
+            // This will take another method count.
+        }
+
+        @Override
+        public void test2() {
+            super.test2();
+            // This will take another method count.
+            // comment this to reduce count by 1.
+        }
+
+        // So total 3, one for implementation,
+        // another for abstract method and
+        // another for overridden method.
+    };
 }
