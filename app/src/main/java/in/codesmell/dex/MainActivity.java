@@ -5,6 +5,9 @@ import android.os.Bundle;
 
 public class MainActivity extends Activity {
 
+    // Doesn't take method count, nothing happens
+    public int x = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
