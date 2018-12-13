@@ -133,7 +133,7 @@ it is high time to understand how method count works and optimize the code.
     ```
     
     
-## Conclusion, so far
+## Conclusion, so far (Will be doing more research)
 
 * Always use `static final` for writing constants. Don't forget to write `final`. 
 * Avoid static variables. Non-final static takes count.
