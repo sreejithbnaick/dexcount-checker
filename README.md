@@ -5,7 +5,9 @@ See how dex method count increases in Android coding.
 If your Android Project Build is giving error on 64k method count, 
 it is high time to understand how method count works and optimize the code.
 
-(Yes I know, Proguard & Multidex will automatically handle some of the cases. But not all the time). How about writing optimized code without sacrificing readability and maintainability. To do that it would be great to know basic on how dex count increases.
+Yes I know, Proguard & Multidex will automatically handle some of the cases. But not all the time.
+
+How about writing optimized code without sacrificing readability and maintainability. To do that it would be great to know basic on how dex count increases.
 
 ## So how it works
 
