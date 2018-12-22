@@ -2,6 +2,7 @@ package in.codesmell.dex;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -17,6 +18,11 @@ public class MainActivity extends Activity {
 
         // No affect
         regularClass.x = 2;
+
+        // No affect
+        ((TextView)findViewById(R.id.textview)).setText("Hi");
+        ((TextView)findViewById(R.id.textview)).setText("Hi");
+        ((TextView)findViewById(R.id.textview)).setText("Hi");
     }
 
     // comment this to reduce count, by 1
