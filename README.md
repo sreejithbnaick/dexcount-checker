@@ -146,7 +146,8 @@ How about writing optimized code without sacrificing readability and maintainabi
         };
 
     ```    
-But, lambdas for the same above will take 4 count.
+  But, lambdas for the same above will take 4 count.
+  
     ```
     private RegularClass1 regularClass2 = ()-> {
     };
