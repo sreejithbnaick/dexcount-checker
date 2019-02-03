@@ -162,7 +162,7 @@ How about writing optimized code without sacrificing readability and maintainabi
 * Avoid more unnecessary new abstract classes and extra methods, 
     since both definition and implementation of class and override takes extra count.
 * Same for Regular class as Abstract classes.
-* Lambdas are good for readability and reduce file size, 
+* Lambdas are good for readability and to reduce file size or lines of code, 
     but just keep in mind that it comes overhead of twice method count.
 
 
