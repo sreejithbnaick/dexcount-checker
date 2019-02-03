@@ -10,4 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello world" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testing" />
 </FrameLayout>

@@ -131,7 +131,25 @@ it is high time to understand how method count works and optimize the code.
         };
 
     ```
-    
+### Lambdas take twice the size of normal implementation
+* For example, following implementation will take 2 count
+    ```
+    // Implementation will take one
+    private RegularClass1 regularClass2 = new RegularClass1() {
+            @Override
+            public void test() {
+                super.test();
+                // This overridden method will take another count.
+            }
+        };
+
+    ```    
+But, lambdas for the same above will take 4 count.
+    ```
+    private RegularClass1 regularClass2 = ()-> {
+    };
+
+    ``` 
     
 ## Conclusion, so far (Will be doing more research)
 
@@ -141,6 +159,8 @@ it is high time to understand how method count works and optimize the code.
 * Avoid more unnecessary new abstract classes and extra methods, 
     since both definition and implementation of class and override takes extra count.
 * Same for Regular class as Abstract classes.
+* Lambdas are good for readability and reduce file size, 
+    but just keep in mind that it comes overhead of twice method count.
 
 
 ## See yourself by running the gradle task.

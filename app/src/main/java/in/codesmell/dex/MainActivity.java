@@ -20,9 +20,9 @@ public class MainActivity extends Activity {
         regularClass.x = 2;
 
         // No affect
-        ((TextView)findViewById(R.id.textview)).setText("Hi");
-        ((TextView)findViewById(R.id.textview)).setText("Hi");
-        ((TextView)findViewById(R.id.textview)).setText("Hi");
+        ((TextView) findViewById(R.id.textview)).setText("Hi");
+        ((TextView) findViewById(R.id.textview)).setText("Hi");
+        ((TextView) findViewById(R.id.textview)).setText("Hi");
     }
 
     // comment this to reduce count, by 1
@@ -35,13 +35,20 @@ public class MainActivity extends Activity {
 
     };
 
-    // comment this to reduce count, by 2. One for class, other for method
+    // comment this to reduce count, by 2. One for class implementation,
+    // other for overridden method
     private TestInterface2 testInterface2 = new TestInterface2() {
 
         @Override
         public void test() {
-            // Cant comment this. Comment on class definition, to reduce by 1
+            // Cant comment this. Comment on class definition, to reduce by 2
         }
+    };
+
+    // Lambda take twice the size. Here twice of 2 (one for class implementation,
+    // other for overridden method), that is 4
+    private TestInterface2 testInterface2Lambda = () -> {
+        // Comment on class definition, to reduce by 4
     };
 
     // comment this to reduce count, by 3. One for class, 2 for methods
