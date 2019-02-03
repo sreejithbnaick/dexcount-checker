@@ -1,6 +1,6 @@
 package in.codesmell.dex;
 
-// commenting this wont reduce count. Implementation will count.
+// Count is for each method in definition, here 1 count
 public interface TestInterface2 {
     // comment this to reduce count, by 1
     public void test();

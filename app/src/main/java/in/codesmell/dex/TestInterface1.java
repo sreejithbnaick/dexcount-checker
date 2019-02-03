@@ -1,5 +1,5 @@
 package in.codesmell.dex;
 
-// commenting this wont reduce count. Implementation will count.
+// Count is for each method in definition, here zero count
 public interface TestInterface1 {
 }
